@@ -1,0 +1,14 @@
+[project]
+name = "ComfyUI-SaveAsICO"
+description = "ComfyUI node which allows you to save generated images as .ICO files."
+version = "1.0.0"
+license = { file = "LICENSE.md"}
+dependencies = ["pillow>=10.1.0"]
+
+[project.urls]
+Repository = "https://github.com/levicki/ComfyUI-SaveAsICO"
+
+[tool.comfy]
+PublisherId = "levicki"
+DisplayName = "ComfyUI-SaveAsICO"
+Icon = "https://raw.githubusercontent.com/levicki/ComfyUI-SaveAsICO/master/images/SaveAsICO.png"
